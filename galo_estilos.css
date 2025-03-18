@@ -1,0 +1,50 @@
+body {
+  background-color: #e3e3e3;
+}
+
+#tabuleiro {
+  background-color: #595959;
+  width: 500px;
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 6%;
+}
+
+#tabuleiro > table {
+  margin: auto;
+  padding-top: 3px;
+  width: 100%;
+  border-spacing: 5px;
+}
+
+#titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 5px 4px 6px #464646;
+  color: white;
+  text-align: center;
+}
+.quadricula {
+  width: 150px;
+  height: 150px;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 5em;
+  font-family: "Chewy", cursive;
+}
+
+.centar {
+  display: flex;
+  justify-content: center;
+}
+#recomecar {
+  background-color: #4baace;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: none;
+}
